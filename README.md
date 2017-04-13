@@ -1,5 +1,11 @@
 # CTAssetsPickerController
 
+## To fix bug: No checkmark image in CocoaPods 1.0.0
+
+1. Select Project "Pods" -> Development Pods -> CTAssetsPickerController -> Resources -> CTAssetsPickerController -> Resources
+2. Add files to Pods, select "CTAssetsPicker.xcassets"
+3. Select Targets "CTAssetsPickerController-CTAssetsPickerController", then add "CTAssetsPicker.xcassets" to the "Copy Bundle Resource"
+
 ## Development Suspended (1 June, 2016)
 
 As I am busy on both of my work and personal life, it seems that I have no more spare time to maintain this project in coming year. The development of this project is suspended. Anyone who would like to keep this project running, just fork it. 

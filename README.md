@@ -2,9 +2,9 @@
 
 ## To fix bug: No checkmark image in CocoaPods 1.0.0
 
-1. Select Project "Pods" -> Development Pods -> CTAssetsPickerController -> Resources -> CTAssetsPickerController -> Resources
-2. Add files to Pods, select "CTAssetsPicker.xcassets"
-3. Select Targets "CTAssetsPickerController-CTAssetsPickerController", then add "CTAssetsPicker.xcassets" to the "Copy Bundle Resource"
+1. Add "CTAssetsPicker.xcassets" to the pod project, "CTAssetsPickerController -> Resources -> CTAssetsPicker.xcassets"
+2. Resolve the problem "unsigned resources": select folder "CTAssetsPicker.xcassets", make all image_sets from "unassigned" to "device universal"
+3. Select Project "Pods" Target "CTAssetsPickerController-CTAssetsPickerController" -> Build Phases. Add "CTAssetsPicker.xcassets" to the "Copy Bundle Resources"
 
 ## Development Suspended (1 June, 2016)
 

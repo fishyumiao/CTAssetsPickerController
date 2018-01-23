@@ -4,6 +4,7 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+.Podfile.lock
 
 # Icon must end with two \r
 Icon
